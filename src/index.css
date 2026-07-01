@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@import "tw-animate-css"; /* optional if you installed it */
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --radius: 0.625rem;
+}
+
+/* any other global CSS */
+body {
+  margin: 0;
+  height: 100%;
+}
